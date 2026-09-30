@@ -1,0 +1,24 @@
+# Arduino CLI and local build directories
+.arduino-build-*/
+build/
+build-*/
+
+# Compiled Arduino artifacts
+*.o
+*.a
+*.d
+*.elf
+*.hex
+*.map
+*.ino.bin
+*.ino.bootloader.bin
+*.ino.merged.bin
+*.partitions.bin
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+.idea/
